@@ -1,10 +1,9 @@
-data:extende({
+data:extend({   --add Sprite
     
     {
         type = "movement-bonus-equipment",
         name = "steel-exoskeleton",
         categories = { "armor", "spidertron-only" },
-        icon = "__More_Exoskeletons__/graphics/item/steel-exoskeleton.png"
         energy_consumption = "300kW",
         energy_source = {
           type = "electric",
@@ -15,6 +14,12 @@ data:extende({
           width = 2,
           height = 4,
           type = "full",
-        }
+        },
+        sprite = {
+          filename = "__More_Exoskeletons__/graphics/items/steel-exoskeleton.png",
+          width = 64,
+          height = 128,
+          priority = "medium",
+        },
     }
 })
